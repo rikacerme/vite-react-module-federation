@@ -1,0 +1,14 @@
+{
+  "files": [],
+  "compilerOptions": {
+    "types": ["vite/client"],
+    "module": "esnext",  // ✅ ESNext veya ES2022 olarak ayarla
+    "target": "esnext",  // ✅ ESNext hedefi belirle
+    "moduleResolution": "node",
+    "skipLibCheck": true
+  },
+  "references": [
+    { "path": "./tsconfig.app.json" },
+    { "path": "./tsconfig.node.json" }
+  ]
+}
